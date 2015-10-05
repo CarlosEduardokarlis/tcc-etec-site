@@ -1,0 +1,327 @@
+html,body
+{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+    body
+    {
+        background: url("img-fundo2.jpg");
+        height: 100%;
+    }
+header 
+{
+	background-color:#161616;
+	text-align: center;
+	height: 60px;
+    width: 100%;
+	border-top: 2px solid #0066cc;
+    z-index: 9;
+}
+.img-logo
+{
+    width: 450px;
+    margin: auto;
+    color:#fff;
+    float: left;
+}
+    .img-logo a
+    {
+        text-decoration: none;
+    }
+    .logo
+    {
+        vertical-align: middle;
+
+    }
+.menu
+{
+    height: 40px;
+    width: 100%;
+	border-top: 5px solid #2b2b24;
+	background-color: #161613;
+    font-size: 17px;
+    margin-top: 15px;
+}
+    .menu a
+    {
+        float: right;
+        border-right: 1px solid #00dbf0;
+        padding: 0px 15px;
+        color: #aaa7a7;
+        text-decoration: none;
+    }
+    .menu a:hover
+    {
+        background-color: #2b2a2a;
+        color:#fff;
+    }
+.carousel
+{
+	height: 800px;
+	width: 100%;
+	background:url(img-fundo2.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+    background-attachment: fixed;
+	padding-top: 40px;
+
+}
+.cel
+{
+	background-image:url(cel-pag.png);
+    background-repeat:no-repeat;
+	width: 270px;
+    height: 505px;
+	float: left;
+    top: -30px;
+    position: relative;
+}
+.carousel h2
+{
+	margin-top:250px;
+	text-align:right;
+	color:#fff;
+	font: 22px "verdana";
+	background-color: blue;
+	opacity: 0.6;
+	width: 900px;
+	float: right;
+}
+    h2 span
+    {
+        display: block;
+        padding-right: 20px;
+    }
+.details
+{
+	width: 100%;
+}
+.intro
+{
+	height: 30px;
+	text-align: center;
+	background-color: #007ca9;
+	border: solid #8ec1da 1px;
+    position:relative;
+    color:#fff;
+    font-size: 20px;
+}
+
+.footer-container
+{
+    width: 100%;
+
+}
+.button-app-web
+{
+    display: inline-block;
+    width: 180px;
+    border-right:  5px solid #006b8e;
+    border-bottom:  5px solid #006b8e;
+    padding: 5px 15px 3px 15px;
+    color: #eaeaea;
+    text-decoration: none;
+    background-color: #007ca9;;
+}
+.button-app-web:hover
+{
+
+    border-right:  5px solid #007ca9;
+    border-bottom:  5px solid #007ca9;
+    padding: 0px 15px;
+    color: #ddd;
+    text-decoration: none;
+    background-color: #007ca9;
+}
+    .footer-container > section
+    {
+        width: 31%;
+        margin: 1%;
+        height: 130px;
+        float: left;
+        text-align: center;
+    }
+    section img
+    {
+        vertical-align: middle;
+    }
+    section.contatos
+    {
+        height: 90px;
+        padding-top: 40px;
+    }
+        .contatos a
+        {
+            text-decoration: none;
+            color:#fff;
+            font-family: "arial";
+
+        }
+.mochila
+{
+    background-image: url("testem.png");
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 124px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.cursor
+{
+    margin-left: 5px;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+.carta
+{
+    vertical-align: middle;
+}
+.content-container
+{
+    background-color: #fd4a00;
+}
+.sobetutooo
+{
+    position:fixed;
+    display:block;
+    width: 50px;
+    height: 50px;
+    background:url("sobe.png");
+    background-repeat: no-repeat;
+    bottom: 25px;
+    right: 15px;
+}
+footer
+{
+	background-color: #161613;
+	height: 80px;
+	width: 100%;
+}
+    footer ul
+    {
+        width: 30%;
+        margin: 0px;
+        float:left;
+        margin-top: 15px;
+    }
+    footer a
+    {
+        text-decoration: none;
+        color: #aaa7a7;
+    }
+    footer a:hover
+    {
+        color:#fc5600;
+    }
+
+/*PAGINA QUEM SOMOS*/
+
+.carousel.quemsomos
+{
+    background:url("q-s-bground1.jpg");
+    height: 750px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 40px;
+    background-color: #fff;
+}
+    .cont-somos
+    {
+        width: 100%;
+        margin-top: 200px;
+        height: 150px;
+    }
+    .equipe
+    {
+        width: 30%;
+        float: left;
+		
+    }
+
+    .txtabout
+    {
+        width: 70%;
+        font-size: 25px;
+        float: right;
+        background-color: #0066cc;
+        opacity: 0.5;
+        color: #fff;
+        text-align: center;
+        }
+    .txtabout span
+    {
+        display: block;
+    }
+/*PAGINA FALE CONOSCO*/
+form 
+{ 
+    font-family: Verdana,Tahoma,sans-serif;
+     font-size: 15px;
+      background-color: #fd4a00
+       max-width: 80%;
+       margin: auto;
+       height: 50%;
+        } 
+        div#conteudoform
+        {
+            padding-left: 300px;
+        }
+        .titulo 
+        { 
+            margin-bottom: 20px;
+             margin-left: 20px;
+              color: #000; 
+              text-shadow: 5px 5px 5px #c1c1c1;
+              font-weight: bold;
+              font-size: 18px;
+               } 
+               input, textarea 
+               { 
+                width: 200px;
+                 padding: 10px; 
+                 color: black;
+                  margin-left: 20px; 
+                  -webkit-border-radius: 5px;
+                   -moz-border-radius: 5px;
+                    border: 1px solid;
+                     } 
+                     input:hover, textarea:hover, input:focus, textarea:focus 
+                     { 
+                        border-color: #000066;
+                         box-shadow: 5px 0px 9px #FFFF00;
+                          background-color: #66FFFF;
+                           color: black;
+                            font-weight: bold;
+                             } 
+                             .submit input 
+                             { 
+                            background-color: #66FFFF;
+                              height: 40px;
+                               width: 100px; 
+                               font-weight: bold;
+                                border-radius: 5px; 
+                                -webkit-border-radius: 5px;
+                                 -moz-border-radius: 5px; 
+                                 border: 1px solid;
+                                  color: black;
+                                   } 
+                                   textarea 
+                                   {
+                                    width: 400px;
+                                    height: 120px;
+                                     line-height: 20px;
+                                      max-width: 400px;
+                                       } 
+                                       form label 
+                                       { 
+                                        margin-left: 20px;
+                                         color: #000;
+                                         display:inline-block;
+                                         width: 100px;
+                                          
+                                           }
+
+
+

@@ -1,0 +1,71 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #eee;
+}
+header 
+{
+	background-color:#fff;
+	text-align: center;
+	height: 60px;
+	margin-right:  -10px;
+	margin-left: -10px;
+	font-family: "Tahoma";
+	border-bottom: 2px solid #d8d8d8;
+	border-top: 2px solid #0066cc;
+}
+a:link
+{
+	text-decoration: none;
+}
+.button_cadastro
+{
+	position: absolute;
+	right: 5%;
+}
+.button_outside_border_green
+{
+	width: 100px;
+	border: solid #3b6e22 1px;
+	border bottom: solid #2c5115 1px;
+	cursor: pointer;
+}
+.button_inside_border_green
+{
+	padding: 6px 0 6px 0;
+	background-color: #68a64c;
+	border-top: solid #98c286 1px;
+	text-align: center;
+	font-family: "verdana";
+	color: #fff;
+}
+div .button_inside_border_green:active
+{
+	background-color: #609946;
+}
+.carousel
+{
+	height: 600px;
+	background:url(img-fundo2.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	padding-top: 40px;
+}
+.cell
+{
+	background-image:url(cel-page.png);
+	background-repeat:no-repeat;
+	width: 100%;
+	height: 100%;	
+	text-decoration:dotted;
+}
+p
+{
+	padding-top:200px;
+	text-align: center;
+	color:#ff8000;
+	font: 22px "verdana";
+
+}
+

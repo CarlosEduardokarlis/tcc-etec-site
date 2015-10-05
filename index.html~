@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta charset="UTF-8">
+    <title>viagemfacil</title>
+</head>
+<body>
+<header>
+<div class="img-logo">
+    <a href="/">
+      Viagem Fácil
+    </a>
+</div>
+<div class="button_cadastro">
+    <div class="button_outside_border_green">
+    <div class="button_inside_border_green">
+        <a href="/" class="button signup-button">
+         cadastrar
+        </a>
+    </div>
+    </div>
+</div>
+</header>
+<article class="carousel">
+<div class="cell">
+     <p>Aproveite sua viagem ao maximo !!</br>
+Com o aplicativo Viagem Fácil você não precisa mais se preocupar com imprevistos.</br>
+Nós ajudamos com o planejamento daquela sua viagem dos sonhos.</p>
+</div>
+</article>
+<article class="details">
+
+</article>
+<article class="download">
+
+</article>
+<footer>
+    <nav class="nossos-produtos">
+        <a href="/">
+            ViagFacil Mobile
+        </a>
+        <a href="/">
+            ViagFacil Web
+        </a>
+    </nav>
+    <nav class="Institucional">
+        <a href="/">
+            Quem somos
+        </a>
+        <a href="/">
+            Politica de privacidade
+        </a>
+        <a href="/">
+            Termos de uso
+        </a>
+    </nav>
+    <nav class="contato">
+        <a href="/">
+            Fale conosco
+        </a>
+    </nav>
+</footer>
+
+</body>
+</html>
